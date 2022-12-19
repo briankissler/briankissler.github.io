@@ -11,6 +11,9 @@ source "https://rubygems.org"
 # This is the default theme for new Jekyll sites. You may change this to anything you like.
 # Added Just Docs
 
+gem "jekyll", "~> 4.1.1"
+gem "cayman", git: "https://github.com/pages-themes/cayman"
+
 gem "minima", "~> 2.5"
 gem "just-the-docs"
 
